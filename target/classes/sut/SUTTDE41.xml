@@ -36,17 +36,17 @@
 		<lanIpAddress>198.15.2.254</lanIpAddress>
 		<imsi>200010001008289</imsi>
 		<iperfDlIpAddress>91.96.2.240</iperfDlIpAddress>
-        <iperfUlIpAddress>198.15.2.240</iperfUlIpAddress>
+        	<iperfUlIpAddress>198.15.2.240</iperfUlIpAddress>
 		<powerControllerMapping>powerControl/A6</powerControllerMapping>
 		<connectedToEnb>enb_1</connectedToEnb>
 		<ueCategory>12</ueCategory>
 
 		<snmp>
 			<class>com.airspan.testspan.jsystem.sysobjs.snmp.Snmp</class>
-			<readCommunity>h=KUK4dJ</readCommunity>
-			<writeCommunity>BcqRz?3Z</writeCommunity>
+			<readCommunity>public</readCommunity>
+			<writeCommunity>private</writeCommunity>
 			<snmpVersion>V2</snmpVersion>
-			<strAddress>20.19.82.35</strAddress>
+			<strAddress>198.15.2.254</strAddress>
 		</snmp>
 	</dyn1>
 
